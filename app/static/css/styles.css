@@ -1,0 +1,13 @@
+.h-100 {
+    min-height: 100vh!important;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+#camera-stream-image {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}

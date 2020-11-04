@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Environments
+*.env
+
+# Logs
+logs/
+*.log
+
+# Coverage reports
+.coverage
+.coverage.*
+
+# Editor Files
+.vscode/
+
+# Database files
+*.sqlite3
+
+# Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# Model Folders
+models/

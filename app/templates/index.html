@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+    <div class="col l9 m9 h-100">
+      <img id="camera-stream-image" src="{{ url_for('parking.video_feed') }}">
+    </div>
+    <div class="col l3 m3 hide-on-small-only h-100">
+      <div id="empty-space-area">
+        <ul class="collection with-header" id="empty-space-collection">
+          <li class="collection-header"><h4>Empty Spaces</h4></li>
+          <li class="collection-item">1</li>
+          <li class="collection-item">5</li>
+          <li class="collection-item">6</li>
+          <li class="collection-item">9</li>
+        </ul> 
+      </div>
+      <ul class="collection with-header" id="empty-space-collection">
+        <li class="collection-header"><h4>Parked Spaces</h4></li>
+        <li class="collection-item">2</li>
+        <li class="collection-item">3</li>
+        <li class="collection-item">4</li>
+        <li class="collection-item">7</li>
+        <li class="collection-item">8</li>
+        <li class="collection-item">10</li>
+      </ul>
+    </div>
+  </div>
+{% endblock content%}
