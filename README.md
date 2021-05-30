@@ -1,1 +1,4 @@
-# Parking Detection
+# Smart-Parking-Detection
+Smart Parking Detection system using Google Coral Dev Board
+
+In this project Google Coral Dev board was used for providing accurate information to the user about the available parking spaces in a parking lot. Since it employs the latest Edge TPU technology, fast-processing machine learning was possible. For the purposes of testing this project, a small-sized prototype of the modern parking lot was created, consisting of parking spaces and toy cars. Six hundred pictures of the parking model were taken with and without cars from different angles. Image augmentation was done to increase the dataset size to 3919 images for training and testing purposes. Dataset training was done using Google Colab. Later, an inference script was written that was used for communication between the host machine and the Coral board. Web app interface was created using Javascript, HTML and CSS to display the working of our model. The final model accuracy achieved by our model was 100% indicating that our model can work successfully with real cars in parking lots outdoor. 
