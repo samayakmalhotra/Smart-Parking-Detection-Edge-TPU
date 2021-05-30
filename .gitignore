@@ -4,6 +4,7 @@ __pycache__/
 
 # Environments
 *.env
+virtual/
 
 # Logs
 logs/

@@ -6,8 +6,14 @@
     height: 50vh;
 }
 
+.pd-screen-full{
+    min-height: 100vh;
+}
+
 #camera-stream-image {
     object-fit: contain;
-    width: 100%;
     height: auto;
+    width: 100%;
+
+    border-radius: 0.25rem;
 }
