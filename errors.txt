@@ -1,0 +1,6 @@
+Error 1
+
+	Wrong Inference after quantization
+
+	Cause: Partial quantization of model. Had only quantized the weights but not the activation functions
+	Solution: Complete quantization including activation functions
